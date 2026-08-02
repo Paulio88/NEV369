@@ -1,0 +1,16 @@
+[package]
+name = "nev369-node"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.4"
+actix-cors = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha256 = "1.5"
+hex = "0.4"
+pqc_dilithium = "0.3"
+tokio = { version = "1.0", features = ["full"] }
+sled = "0.34"
+bincode = "1.3"
